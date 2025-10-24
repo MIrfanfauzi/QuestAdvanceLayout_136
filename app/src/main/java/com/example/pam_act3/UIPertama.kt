@@ -120,7 +120,11 @@ fun ActivitasPertama(modifier: Modifier){
             colors = CardDefaults.cardColors(containerColor = Color.Red)
         ) {
             Row(modifier = Modifier.padding(10.dp)) {
-
+                Image(
+                    painter = painterResource(id = R.drawable.gambar3),
+                    contentDescription = null,
+                    modifier = Modifier.size(90.dp)
+                )
             }
         }
 
