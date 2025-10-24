@@ -113,8 +113,12 @@ fun ActivitasPertama(modifier: Modifier){
                     )
                 }
             }
-
         }
+        //card 3
+        Card(
+            modifier = Modifier.fillMaxWidth().padding(12.dp),
+
+        ) {}
 
         Box(
             modifier = Modifier
