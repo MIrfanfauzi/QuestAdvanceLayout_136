@@ -106,6 +106,11 @@ fun ActivitasPertama(modifier: Modifier){
                         fontSize = 18.sp,
                         color = Color.White
                     )
+                    Text(
+                        text = stringResource(id = R.string.alamat2),
+                        fontSize = 18.sp,
+                        color = Color.White
+                    )
                 }
             }
 
