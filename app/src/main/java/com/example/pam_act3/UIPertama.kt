@@ -118,7 +118,11 @@ fun ActivitasPertama(modifier: Modifier){
         Card(
             modifier = Modifier.fillMaxWidth().padding(12.dp),
             colors = CardDefaults.cardColors(containerColor = Color.Red)
-        ) {}
+        ) {
+            Row(modifier = Modifier.padding(10.dp)) {
+
+            }
+        }
 
         Box(
             modifier = Modifier
