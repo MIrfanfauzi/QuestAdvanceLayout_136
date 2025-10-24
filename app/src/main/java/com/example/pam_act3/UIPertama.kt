@@ -125,6 +125,10 @@ fun ActivitasPertama(modifier: Modifier){
                     contentDescription = null,
                     modifier = Modifier.size(90.dp)
                 )
+                Spacer(modifier = Modifier.width(20.dp))
+                Column {
+
+                }
             }
         }
 
