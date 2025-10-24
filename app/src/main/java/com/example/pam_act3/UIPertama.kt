@@ -133,6 +133,11 @@ fun ActivitasPertama(modifier: Modifier){
                         fontFamily = FontFamily.Cursive,
                         color = Color.White
                     )
+                    Text(
+                        text = stringResource(id = R.string.nim3),
+                        fontSize = 18.sp,
+                        color = Color.White
+                    )
                 }
             }
         }
