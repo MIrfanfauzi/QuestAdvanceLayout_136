@@ -85,7 +85,7 @@ fun ActivitasPertama(modifier: Modifier){
         //card 2
         Card(
             modifier = Modifier.fillMaxWidth().padding(12.dp),
-
+            colors = CardDefaults.cardColors(containerColor = Color.Blue)
         ) {
 
         }
